@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.batman_href{
+    margin-left: 50%;
+    text-decoration: none;
+    color: #008; /* Цвет текста */
+    background: rgb(250,247,25); /* Цвет фона */
+    padding: 2px; /* Поля вокруг текста */
+    transition: 1s linear; /* Время изменения */
+    width: 60px;
+}
+.batman_href:hover{
+    color: #fff; /* Цвет текста */
+    background: rgb(228, 126, 10); /* Цвет фона */
+}
+.yt{
+    margin-top: 50px;
+}
+.batman_img{
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    border-left: 5px solid rgb(4, 6, 97);
+    border-bottom: 5px solid rgb(4, 6, 97);
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.lorem{
+    font-size: 20px;
+    color: black;
+    border: 10px solid black;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+#new_lorem{
+    margin: 20px;
+    border: 5px dotted #126451;
+}
+body{
+    background: rgb(250,247,25);
+}
+#top{
+    text-align: center;
+}
