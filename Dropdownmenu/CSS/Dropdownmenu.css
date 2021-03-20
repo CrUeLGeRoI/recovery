@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.hamburger {
+  display: none;
+}
+.menu {
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+}
+.menu__item {
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+.menu__item:hover {
+  transition: 0.5s;
+  background-color: greenyellow;
+}
+li {
+  list-style-type: none;
+  height: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.submenu {
+  position: relative;
+  left: -40px;
+  display: none;
+}
+.dropdown:hover > .submenu {
+  display: block;
+}
+.submenu__item {
+  width: 200px;
+  height: 50px;
+  background-color: lightgreen;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: middle;
+}
+.submenu__item:hover {
+  transition: 0.5s;
+  background-color: red;
+}
+@media screen and (max-device-width: 768px) {
+  body {
+    background-color: rgb(83, 83, 90);
+  }
+  .menu {
+    display: none;
+  }
+  .header {
+    display: block;
+  }
+  .hamburger {
+    display: block;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dropdown:hover > .submenu {
+    display: block;
+  }
+  .hamburger > img {
+    width: 40px;
+    height: 40px;
+  }
+  .hamburger:hover ~ .menu {
+    display: block;
+  }
+}

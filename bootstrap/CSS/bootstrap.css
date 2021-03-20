@@ -1,0 +1,18 @@
+.header {
+  height: 100px;
+  background-color: lightgrey;
+}
+i {
+  width: 10px;
+  height: 10px;
+}
+.header-menu {
+  display: flex;
+  list-style-type: none;
+}
+.red-div {
+  background-color: red;
+}
+.green-div {
+  background-color: green;
+}
