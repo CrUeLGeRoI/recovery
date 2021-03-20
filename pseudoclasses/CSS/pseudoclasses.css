@@ -1,0 +1,78 @@
+h1::after {
+  content: "";
+  position: absolute;
+  background-color: red;
+  width: 208px;
+  height: 5px;
+  left: 9px;
+  top: 58px;
+}
+li {
+  list-style-type: none;
+}
+li:hover {
+  background-color: red;
+}
+.main li:first-child {
+  color: green;
+}
+.main li:last-child {
+  color: blueviolet;
+}
+ul {
+  width: 100px;
+}
+.main li:nth-child(3) {
+  color: salmon;
+}
+.main li:nth-child(even) {
+  color: blue;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: darkgreen;
+}
+
+a:visited {
+  color: aqua;
+}
+.main__elements::before {
+  content: "";
+  left: 20px;
+  width: 10px;
+  height: 10px;
+  background-color: darkmagenta;
+  border-radius: 50%;
+  position: absolute;
+}
+.fa-bus {
+  font-size: 50px;
+  color: red;
+}
+.list__icon::before {
+  content: "";
+  left: 20px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa-skating {
+  background-color: aqua;
+}
+.fa-forward {
+  background-color: aqua;
+}
+.fa-skiing {
+  background-color: blue;
+}
+.fa-square {
+  background-color: blue;
+}
