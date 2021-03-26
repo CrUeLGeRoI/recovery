@@ -30,6 +30,7 @@ h1 {
   border-bottom: 1px solid lightgray;
   list-style: none;
   width: 80%;
+  background-color: gold;
   margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -44,4 +45,19 @@ input {
 }
 a {
   text-decoration: none;
+}
+.checkbox{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  right: 71px;
+}
+.checked{
+  color: red;
+  text-decoration: line-through;
+}
+.icon{
+  display: inline-block;
+  float: right;
+  margin-right: 5px;
 }
