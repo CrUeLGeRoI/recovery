@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../CSS/css/all.min.css">
+</head>
+<body>
+    <div class="popup_window">
+        <i onclick="saveExpressions(this)" class="fas fa-download icon_download"></i>
+        <ul class="main">
+
+        </ul>
+    </div>
+    <div class="calculator">
+        <div class="last_expression">
+
+        </div>
+        <span><i class="fas fa-question-circle icon"></i></span>
+        <input type="text" class="calculator-screen" value="0" disabled />
+        <div class="calculator-keys">
+          
+          <button type="button" class="operator" onclick="showOperator(this)" value="+">+</button>
+          <button type="button" class="operator" onclick="showOperator(this)" value="-">-</button>
+          <button type="button" class="operator" onclick="showOperator(this)" value="*">&times;</button>
+          <button type="button" class="operator" onclick="showOperator(this)" value="/">&divide;</button>
+            
+          <button type="button" class="num" onclick="showNum(this)" value="7">7</button>
+          <button type="button" class="num" onclick="showNum(this)" value="8">8</button>
+          <button type="button" class="num" onclick="showNum(this)" value="9">9</button>
+      
+      
+          <button type="button" class="num" onclick="showNum(this)" value="4">4</button>
+          <button type="button" class="num" onclick="showNum(this)" value="5">5</button>
+          <button type="button" class="num" onclick="showNum(this)" value="6">6</button>
+      
+      
+          <button type="button" class="num" onclick="showNum(this)" value="1">1</button>
+          <button type="button" class="num" onclick="showNum(this)" value="2">2</button>
+          <button type="button" class="num" onclick="showNum(this)" value="3">3</button>
+      
+      
+          <button type="button" class="num" onclick="showNum(this)" value="0">0</button>
+          <button type="button" class="decimal" onclick="showOperator(this)" value=".">.</button>
+          <button type="button" class="all-clear" onclick="del(this)"  value="all-clear">AC</button>
+      
+          <button type="button" class="equal-sign" onclick="calculate(this)" value="=">=</button>
+      
+        </div>
+      </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
