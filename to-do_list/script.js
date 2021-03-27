@@ -46,6 +46,11 @@ btnAdd.onclick = function () {
             //function for deletor
 
             
+            //delete all
+            // for (let i = 0; i < ul.length; i+=1){
+            //     ul[i].remove()
+            // }
+
         //appearing li in ul
         ul.appendChild(li)
 
