@@ -1,0 +1,81 @@
+.header{
+    display: flex;
+    justify-content: flex-end;
+}
+.icon_cart{
+    font-size: 50px;
+    text-align: end;   
+}
+.trash{
+    width: 300px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    right: 5px;
+    border: 1px solid black;
+    padding-top: 20px;
+}
+.show {
+    display: flex;
+}
+.trash li {
+    list-style-type: none;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.trash > li > span {
+    font-size: 20px;
+    color: #000;
+}
+
+.icon_close{
+    font-size: 50px;
+    position: absolute;
+    justify-content: right;
+}
+.unvisible{
+    display: none;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+}
+.modal-inner{
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.clothes{
+    width: 400px;
+    height: 500px;
+    border: 5px solid black;
+    border-radius: 5%;
+    text-align: center;
+}
+.icon_clothes{
+    font-size: 120px;   
+}
+.click-yes{
+    text-align: left;
+}
+.click-no{
+    text-align: right;
+}
