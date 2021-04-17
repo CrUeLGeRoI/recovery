@@ -20,7 +20,7 @@ function renderModalWindow () {
     div.insertAdjacentHTML('afterbegin', `
     
     <div class="modal-inner">
-        <h1>Do u rly want to buy this clothes?</h1>
+        <h1>Do u really want to buy this clothes?</h1>
         <button class="click-yes">Yes</button>
         <button class="click-no">No</button>
     </div>
