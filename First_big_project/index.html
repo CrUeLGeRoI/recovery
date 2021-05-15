@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../CSS/css/all.min.css">
 </head>
@@ -26,6 +28,10 @@
                     <a class="nav__link" href="#">COVID-19</a>
     
                 </nav>
+
+                <div class="toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
         </div>
     </header>
@@ -50,7 +56,7 @@
         </div>
     </div>
     <!-- Imposed -->
-    <div class="imposed">
+    <div class="imposed" data-aos="fade-up">
         <div class="container imposed__style">
             <div class="imposed__content">
                 <div class="imposed__title">
@@ -99,7 +105,7 @@
                             <span>3</span>
                         </div>
 
-                        <p class="right_block__title">Get comprehensive guidance and support.</p>
+                        <p class="right_block__title">Get comprehensive</p>
                         <p class="right_block__text">We are here to help you navigate any task, with all the digital tools, expert advice, and real-time assistance you need.</p>
                     </div>
 
@@ -116,7 +122,7 @@
             <div class="benefits__style">
                 <!-- Start of rows -->
                 <!-- 1 row -->
-                <div class="benefits__block">
+                <div class="benefits__block" data-aos="fade-right">
                     
                     <div class="benefits__block_left">
                         <h1 class="benefits__title">Built for peace of mind.</h1>
@@ -129,7 +135,7 @@
 
                     </div>
                     <!-- 2 row -->
-                    <div class="benefits__block">
+                    <div class="benefits__block" data-aos="fade-right">
 
                         <div class="benefits__block_left">
                             <img src="images/Group 2.png" alt="" class="benefits__block_img">
@@ -142,7 +148,7 @@
 
                     </div>
                     <!-- 3 row -->
-                    <div class="benefits__block">
+                    <div class="benefits__block" data-aos="fade-right">
 
                         <div class="benefits__block_left">
                             <h1 class="benefits__title">Easily track and collect benefits.</h1>
@@ -155,7 +161,7 @@
 
                     </div>
                     <!-- 4 row -->
-                    <div class="benefits__block">
+                    <div class="benefits__block" data-aos="fade-right">
 
                         <div class="benefits__block_left">
                             <img src="images/Group 4.png" alt="" class="benefits__block_img">
@@ -168,7 +174,7 @@
 
                     </div>
                     <!-- 5 row -->
-                    <div class="benefits__block">
+                    <div class="benefits__block" data-aos="fade-right">
 
                         <div class="benefits__block_left">
                             <h1 class="benefits__title">Listen in. Understand grief.</h1>
@@ -271,7 +277,7 @@
     <!-- Quote -->
     <div class="quote">
         <!-- Imposed security -->
-    <div class="imposed__security">
+    <div class="imposed__security" data-aos="fade-up">
         <div class="container imposed__security_style">
             <div class="imposed__security_content">
                 <div class="imposed__security_title">
@@ -314,7 +320,7 @@
     <!-- Your Trial -->
     <div class="yourtrial">
         <!-- Imposed trial -->
-    <div class="imposed__trial">
+    <div class="imposed__trial" data-aos="fade-up">
         <div class="container imposed__trial_style">
             <div class="imposed__trial_left">
                 <h1 class="trial__title_left">30-day free trial</h1>
@@ -372,6 +378,10 @@
         </div>
     </div>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
