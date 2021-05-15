@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Empathy</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../CSS/css/all.min.css">
@@ -29,15 +31,20 @@
     </header>
     <!-- Intro -->
     <div class="intro">
-        <div class="container">
-            <div class="intro__left">
-                <h1 class="intro__title">Losing a loved one is hard enough.</h1>
-                <span class="intro__text">Empathy is here to help you with everything that comes next.</span> 
-                <h2 class="intro__suptitle">We guide and support you along your journey of loss, giving you the tools to navigate and prioritize every task.</h2>
-                <p class="intro__text2">Try it for free:</p>
-                <div class="intro__input">
-                    <input class="intro__input_text" type="text" placeholder="(222) 123-4512" name="" id="">
-                    <input class="intro__input_button" type="submit" value="Text Me the App">
+        <div class="container intro__style">
+                <div class="intro__left intro__mobile">
+                    <h1 class="intro__title">Losing a loved one is hard enough.</h1>
+                    <span class="intro__text">Empathy is here to help you with everything that comes next.</span> 
+                    <h2 class="intro__suptitle">We guide and support you along your journey of loss, giving you the tools to navigate and prioritize every task.</h2>
+                    <p class="intro__text2">Try it for free:</p>
+                    <div class="intro__input">
+                        <input class="intro__input_text" type="text" placeholder="(222) 123-4512" name="" id="">
+                        <input class="intro__input_button" type="submit" value="Text Me the App">
+                    </div>
+                </div>
+            <div class="intro__right">
+                <div class="intro__img">
+                    <img src="images/family.png" alt="" class="intro__right_img">
                 </div>
             </div>
         </div>
@@ -116,13 +123,17 @@
                         <p class="benefits__text">Empathy is designed to show you the specific steps to take, based on your unique situation and at your own pace. Whether you’re planning a funeral, managing an estate, or dealing with any other arrangements, get the knowledge and support you need.</p>
                     </div>
 
-                        <div class="benefits__block_right"></div>
+                        <div class="benefits__block_right">
+                            <img src="images/Group 1.png" alt="" class="benefits__block_img">
+                        </div>
 
                     </div>
                     <!-- 2 row -->
                     <div class="benefits__block">
 
-                        <div class="benefits__block_left"></div>
+                        <div class="benefits__block_left">
+                            <img src="images/Group 2.png" alt="" class="benefits__block_img">
+                        </div>
 
                         <div class="benefits__block_right">
                             <h1 class="benefits__title">Standing by to assist you.</h1>
@@ -138,13 +149,17 @@
                             <p class="benefits__text">Get simple and immediate guidance to all the benefits your family may be entitled to—including many you may not have known about. The app helps you locate, determine eligibility, and collect on these important sources of funding for the funeral and the estate.</p>
                         </div>
 
-                        <div class="benefits__block_right"></div>
+                        <div class="benefits__block_right">
+                            <img src="images/Group 3.png" alt="" class="benefits__block_img">
+                        </div>
 
                     </div>
                     <!-- 4 row -->
                     <div class="benefits__block">
 
-                        <div class="benefits__block_left"></div>
+                        <div class="benefits__block_left">
+                            <img src="images/Group 4.png" alt="" class="benefits__block_img">
+                        </div>
 
                         <div class="benefits__block_right">
                             <h1 class="benefits__title">Paperwork, figured out.</h1>
@@ -160,7 +175,9 @@
                             <p class="benefits__text">Grief is a fundamental human experience, and navigating it underlies every aspect of the Empathy app. Original audio chapters walk you through the tangled processes of grieving to help you observe, understand, and come to grips with what you're going through.</p>
                         </div>
 
-                        <div class="benefits__block_right"></div>
+                        <div class="benefits__block_right">
+                            <img src="images/Group 5.png" alt="" class="benefits__block_img">
+                        </div>
 
                     </div>
                     <!-- End of rows -->
@@ -251,7 +268,9 @@
         </div>
     </div>
 
-    <!-- Imposed security -->
+    <!-- Quote -->
+    <div class="quote">
+        <!-- Imposed security -->
     <div class="imposed__security">
         <div class="container imposed__security_style">
             <div class="imposed__security_content">
@@ -261,11 +280,7 @@
                 <p class="imposed__security_text">Empathy is committed to ensuring that your data is and will always be safe and private. We use bank-level 256-bit encryption to store and transmit data, and your most private information is protected with two-factor authentication.</p>
             </div>
         </div>
-    </div>    
-
-
-    <!-- Quote -->
-    <div class="quote">
+    </div>   
         <div class="container quote__style">
             <span class="quote_minititle">In the words of our users</span>
             <span class="quote__quotation_mark">“</span>
@@ -295,7 +310,10 @@
         </div>
     </div>
 
-    <!-- Imposed trial -->
+    
+    <!-- Your Trial -->
+    <div class="yourtrial">
+        <!-- Imposed trial -->
     <div class="imposed__trial">
         <div class="container imposed__trial_style">
             <div class="imposed__trial_left">
@@ -308,9 +326,6 @@
             </div>
         </div>
     </div>
-    
-    <!-- Your Trial -->
-    <div class="yourtrial">
         <div class="container yourtrial__style">
             <p class="yourtrial__title">Start your free trial</p>
             <div class="yourtrial__input">
@@ -325,7 +340,29 @@
     <div class="footer">
         <div class="container footer__style">
             <div class="footer__top">
-                <div class="footer__top_left"></div>
+                <div class="footer__top_left">
+                    <div class="footer__top_company">
+                        <ul>
+                        <li>Company</li>
+                        <li>About</li>
+                        <li>Join the Team</li>
+                        <li>Partner With Us</li>
+                        <li>Press</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms of Service</li>
+                        <li>Contact Us</li>
+                    </ul>
+                    </div>
+                    <div class="footer__top_resources">
+                        <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                </div>
                 <div class="footer__top_right"></div>
             </div>
             <div class="footer__bottom">
