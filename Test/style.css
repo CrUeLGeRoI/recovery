@@ -1,0 +1,27 @@
+/* div {
+    width: 100%;
+    max-width: 350px;
+    height: 100vh;
+    margin: 5px 10px 3px 8px;
+}
+ul li:nth-child(3){
+    color: #02e6e2;
+}
+@media screen and (max-width: 992px) {
+    div{
+        height: 400px;
+    }
+}
+.parent-element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child-element{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+} */
+body div:nth-child(2){
+    margin-top: 20px;
+}

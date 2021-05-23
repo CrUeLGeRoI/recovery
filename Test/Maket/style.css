@@ -1,0 +1,119 @@
+/* Other Stuff */
+.opened {
+    transform: translateY(0) !important;
+  }
+  
+  .toggle {
+    width: 50px;
+    height: 50px;
+    display: none;
+  }
+  
+  .toggle i {
+    font-size: 40px;
+  }
+  
+  .swiper-alert {
+    display: none;
+  }  
+
+  :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+  }
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    padding-top: 15px;
+  }
+  .header__inner {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Nav */
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+  }
+  
+  .nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    position: relative;
+    color: black;
+    text-decoration: none;
+    transition: color 0.1s linear;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 900;
+  }
+  .nav__link:nth-last-child(-n+3){
+    color: #828282;
+  }
+  .nav__link:hover{
+    color: crimson;
+  }
+  
+  .nav__link:hover:after{
+    display: block;
+  }
+  /* Intro */
+  .intro {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .intro__style{
+      display: flex;
+      flex-direction: column;
+  }
+  .intro__top{
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  .intro__rotated_text{
+    transform: rotate(-90deg);
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+  }
+  .intro__top h1 span{
+      color: black;
+  }
+  .intro__bottom{
+    justify-content: center;
+  }
+  .intro__top, .intro__bottom{
+      width: 100%;
+      display: flex;
+  }
+  /* About */
+  .about{
+      width: 100%;
+      background: #F6F6F6;
+      margin-top: 104px;
+  }
+  .about__style{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 106px;
+      padding-top: 119px;
+  }
+  .about__text{
+    width: 485px;
+    font-size: 25px;
+    line-height: 22px;
+    text-align: center;
+  }

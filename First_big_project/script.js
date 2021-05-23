@@ -6,4 +6,6 @@ function openMenu () {
     const menu = document.querySelector('.nav')
 
     menu.classList.toggle('opened')
+    toggleIcon.querySelector('i').classList.toggle('fa-times')
 }
+
