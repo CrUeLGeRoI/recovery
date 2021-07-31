@@ -1,0 +1,70 @@
+a.wmodal__close:active, /* активная/посещенная ссылка */
+a.wmodal__close:hover,  /* при наведении */
+a.wmodal__close {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+button{
+    border-radius: 5px;
+    margin-left: 5px;
+    border: 0;
+}
+
+.wmodal__overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 50%);
+}
+.wmodal__window{
+    width: 600px;
+    border-radius: 10px;
+    background: #fff;
+}
+.wmodal__header{
+    height: 25%;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+}
+.wmodal__close{
+    width: 20px;
+    height: 24px;
+    text-align: center;
+    user-select: none;
+    font-weight: 900;
+    cursor: pointer;
+}
+.wmodal__title{
+    font-size: 1.5rem;
+}
+.wmodal__body{
+    padding: 10px;
+    height: 50%;
+}
+.wmodal__footer{
+    width: 100%;
+    height: 25%;
+    padding: 5px 10px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: flex-end;
+}
+.wmodal__button_accept{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+.wmodal__button_accept:hover{
+    background-color: lightgreen;
+}
+.wmodal__button_cancel{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+.wmodal__button_cancel:hover{
+    background-color: rgb(255, 89, 89);
+}
