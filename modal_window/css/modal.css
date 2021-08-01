@@ -1,3 +1,33 @@
+/* JS things */
+
+.wmodal.open .wmodal__overlay,
+.wmodal.open .wmodal__window{
+    opacity: 1;
+    z-index: 100;
+}
+.wmodal.hide .wmodal__overlay,
+.wmodal.hide .wmodal__window{
+    opacity: 1;
+    z-index: 1000;
+}
+.wmodal__window, .wmodal__overlay {
+    opacity: 0;
+    z-index: -1;
+}
+.wmodal.open .wmodal__window{
+    transform: translateY(0px);
+}
+.wmodal.open .wmodal__overlay{
+    background: rgba(0, 0, 0, 50%);
+}
+.wmodal.hide .wmodal__window{
+    transform: translateY(-500px);
+}
+.wmodal.hide .wmodal__overlay{
+    background: rgba(0, 0, 0, 0);
+}
+
+
 a.wmodal__close:active, /* активная/посещенная ссылка */
 a.wmodal__close:hover,  /* при наведении */
 a.wmodal__close {
@@ -9,7 +39,6 @@ button{
     margin-left: 5px;
     border: 0;
 }
-
 .wmodal__overlay{
     display: flex;
     justify-content: center;
@@ -19,12 +48,15 @@ button{
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 50%);
+    background: rgba(0, 0, 0, 0);
+    transition: background .5s ease-in-out;
 }
 .wmodal__window{
     width: 600px;
     border-radius: 10px;
     background: #fff;
+    transform: translateY(-500px);
+    transition: transform .4s ease-in-out;
 }
 .wmodal__header{
     height: 25%;
