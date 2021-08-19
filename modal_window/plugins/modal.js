@@ -9,7 +9,7 @@ function _createModal(options) {
                     <span class="wmodal__title">${options.title || "Title isn't working!"}</span>
                     ${options.closable ? `<span class="wmodal__close" data-close="true">&times;</span>` : ''}
                 </div>
-                <div class="wmodal__body">
+                <div class="wmodal__body" data-content>
                     ${options.content || "content isn't working!"}
                 </div>
                 <div class="wmodal__footer">
@@ -60,6 +60,9 @@ $.modal = function(options){
             destroyed = true
             $modal.parentNode.removeChild($modal)
             $modal.removeEventListener('click', listener)
+        },
+        setContent(html){
+            $modal.querySelector('[data-content]').innerHTML = html
         }
     })
 }
